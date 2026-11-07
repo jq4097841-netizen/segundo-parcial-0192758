@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="No te quedes sin tu sushi favorito, solo aqui en ginza.">
+
+  <title>Ginza | Sushi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio">GINZA</a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav-links">
+      <a href="#inicio">INICIO</a>
+      <a href="#especiales">ESPECIALES</a>
+      <a href="#menu">MENÚ</a>
+      <a href="#eventos">EVENTOS</a>
+      <a href="#nosotros">NOSOTROS</a>
+    </nav>
+
+    <a class="nav-book" href="#reservas">RESERVAR MESA</a>
+  </header>
+
+  <main>
+
+    <!-- PORTADA PRINCIPAL -->
+    <section class="hero">
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">UNA EXPERIENCIA GASTRONÓMICA</p>
+
+        <h1>EL ARTE DEL<br><em>BUEN SUSHI</em></h1>
+
+        <p class="hero-copy">
+          no te quedes sin tu sushi favorito, solo aqui en ginza
+        </p>
+
+        <a class="gold-button" href="#menu">DESCUBRIR MENÚ</a>
+      </div>
+
+      <span class="hero-note">SABOR · ARTE · EXPERIENCIA</span>
+    </section>
+
+
+    <!-- PLATILLOS ESPECIALES -->
+    <section class="special section-wrap" id="especiales">
+
+      <div class="section-heading">
+        <p class="eyebrow gold">SELECCIÓN DEL CHEF</p>
+
+        <h2>Platillos <em>especiales</em></h2>
+
+        <p>
+          Descubre nuestros rolls favoritos, preparados
+          con ingredientes frescos y mucho sabor.
+        </p>
+      </div>
+
+      <div class="special-grid">
+
+        <!-- NEPTUNO -->
+        <article class="dish-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=85"
+            alt="Sushi Neptuno"
+          >
+
+          <div class="dish-info">
+            <span class="dish-number">01 / CHEF'S CHOICE</span>
+
+            <h3>Neptuno</h3>
+
+            <p>
+              Un roll lleno de sabor con una combinación
+              fresca de mariscos y aguacate.
+            </p>
+
+            <span class="price">$28</span>
+          </div>
+
+        </article>
+
+
+        <!-- ROLL FUEGO -->
+        <article class="dish-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=900&q=85"
+            alt="Roll Fuego"
+          >
+
+          <div class="dish-info">
+            <span class="dish-number">02 / SIGNATURE</span>
+
+            <h3>Roll Fuego</h3>
+
+            <p>
+              Un toque picante y delicioso para quienes
+              disfrutan los sabores intensos.
+            </p>
+
+            <span class="price">$32</span>
+          </div>
+
+        </article>
+
+
+        <!-- PREMIUM SUSHI -->
+        <article class="dish-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=900&q=85"
+            alt="Premium Sushi"
+          >
+
+          <div class="dish-info">
+            <span class="dish-number">03 / FAVORITE</span>
+
+            <h3>Premium Sushi</h3>
+
+            <p>
+              Una selección premium de sushi, elaborada
+              para una experiencia especial.
+            </p>
+
+            <span class="price">$25</span>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- MENÚ -->
+    <section class="menu-section" id="menu">
+
+      <div class="section-heading">
+        <p class="eyebrow gold">DESCUBRE NUESTRA COCINA</p>
+
+        <h2>Nuestro <em>menú</em></h2>
+
+        <p>
+          Sushi fresco, rolls irresistibles y sabores
+          que siempre querrás repetir.
+        </p>
+      </div>
+
+      <div class="menu-gallery">
+
+        <article class="menu-feature">
+          <img src="assets/menu-1.jpg" alt="Plato de la carta"
+          onerror="this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1100&q=85'">
+
+          <div>
+            <span>01 — ENTRADAS</span>
+            <h3>Empieza con algo delicioso</h3>
+            <p>Entradas perfectas para compartir antes de tus rolls favoritos.</p>
+          </div>
+        </article>
+
+        <article class="menu-feature reverse">
+          <img src="assets/menu-2.jpg" alt="Plato principal"
+          onerror="this.src='https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1100&q=85'">
+
+          <div>
+            <span>02 — ROLLS</span>
+            <h3>Rolls para recordar</h3>
+            <p>Combinaciones frescas con el equilibrio perfecto entre sabor y textura.</p>
+          </div>
+        </article>
+
+        <article class="menu-feature">
+          <img src="assets/menu-3.jpg" alt="Especialidad de la casa"
+          onerror="this.src='https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1100&q=85'">
+
+          <div>
+            <span>03 — FAVORITOS</span>
+            <h3>Un antojo irresistible</h3>
+            <p>Encuentra ese sushi que se convertirá en tu nuevo favorito.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <a class="outline-button" href="#reservas">VER TODA LA CARTA</a>
+
+    </section>
+
+
+    <!-- EVENTOS -->
+    <section class="events section-wrap" id="eventos">
+
+      <div class="section-heading">
+        <p class="eyebrow gold">MOMENTOS PARA COMPARTIR</p>
+        <h2>Dining <em>Events</em></h2>
+      </div>
+
+      <div class="event-grid">
+
+        <article class="event-card event-large">
+          <img src="assets/event-1.jpg" alt="Cena especial"
+          onerror="this.src='https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85'">
+
+          <div class="event-caption">
+            <span>01 / PRIVATE DINING</span>
+            <h3>Unforgettable evenings</h3>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="assets/event-2.jpg" alt="Ambiente del restaurante"
+          onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85'">
+
+          <div class="event-caption">
+            <span>02 / SPECIAL MOMENTS</span>
+            <h3>Celebrate together</h3>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="assets/event-3.jpg" alt="Experiencia gastronómica"
+          onerror="this.src='https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=85'">
+
+          <div class="event-caption">
+            <span>03 / OUR PLACE</span>
+            <h3>Made with passion</h3>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- IMAGEN DIVISORIA -->
+    <section class="image-divider" aria-label="Salmón a la parrilla">
+      <div class="divider-overlay"></div>
+      <p>GOOD FOOD. GOOD MOOD. GREAT MEMORIES.</p>
+    </section>
+
+
+    <!-- NOSOTROS -->
+    <section class="about section-wrap" id="nosotros">
+
+      <div class="about-image">
+        <img src="assets/about.jpg" alt="Interior del restaurante"
+        onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1100&q=85'">
+
+        <span class="image-frame"></span>
+      </div>
+
+      <div class="about-copy">
+
+        <p class="eyebrow gold">NUESTRA HISTORIA</p>
+
+        <h2>The beauty of<br><em>sharing moments</em></h2>
+
+        <p>
+          Creemos que una buena comida es mucho más que un plato:
+          es una oportunidad para reunirse, conversar y crear recuerdos.
+          Cada detalle está pensado para ofrecerte una experiencia especial.
+        </p>
+
+        <a class="gold-button" href="#reservas">CONÓCENOS</a>
+
+      </div>
+    </section>
+
+
+    <!-- RESERVAS -->
+    <section class="reservation" id="reservas">
+
+      <p class="eyebrow gold">TU MESA TE ESPERA</p>
+
+      <h2>Make it a <em>special night</em></h2>
+
+      <p>
+        Ven a disfrutar de nuestra cocina y comparte
+        un momento inolvidable.
+      </p>
+
+      <a class="gold-button" href="mailto:reservas@goldentable.com">
+        RESERVAR AHORA
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+
+    <a class="brand" href="#inicio">GINZA</a>
+
+    <p>No te quedes sin tu sushi favorito, solo aqui en ginza.</p>
+
+    <div class="footer-links">
+      <a href="#menu">Menú</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#reservas">Reservas</a>
+    </div>
+
+    <small>© 2026 GINZA. TODOS LOS DERECHOS RESERVADOS.</small>
+
+  </footer>
+
+</body>
+</html>
