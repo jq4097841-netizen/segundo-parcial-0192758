@@ -1,326 +1,421 @@
-
-
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="No te quedes sin tu sushi favorito, solo aqui en ginza.">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="No te quedes sin tu sushi favorito, solo aqui en ginza." name="description"/>
+<title>Ginza | Sushi</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="data:BASE64_RECORTADO" rel="icon" type="image/png"/>
 
-  <title>Ginza | Sushi</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
-
 <body>
-
-  <header class="site-header" id="inicio">
-    <a class="brand" href="#inicio">GINZA</a>
-
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-
-    <nav class="nav-links">
-      <a href="#inicio">INICIO</a>
-      <a href="#especiales">ESPECIALES</a>
-      <a href="#menu">MENÚ</a>
-      <a href="#eventos">EVENTOS</a>
-      <a href="#nosotros">NOSOTROS</a>
-    </nav>
-
-    <a class="nav-book" href="#reservas">RESERVAR MESA</a>
-  </header>
-
-  <main>
-
-    <!-- PORTADA PRINCIPAL -->
-    <section class="hero">
-      <div class="hero-shade"></div>
-
-      <div class="hero-content">
-        <p class="eyebrow">UNA EXPERIENCIA GASTRONÓMICA</p>
-
-        <h1>EL ARTE DEL<br><em>BUEN SUSHI</em></h1>
-
-        <p class="hero-copy">
+<header class="site-header" id="inicio">
+<a aria-label="Ginza Restaurante" class="brand" href="#inicio"><img alt="Ginza Restaurante" src="data:BASE64_RECORTADO"/></a>
+<button aria-expanded="false" aria-label="Abrir menú" class="menu-toggle">☰</button>
+<nav class="nav-links">
+<a href="#eventos">CATALIZACIÓN DE VINOS</a>
+<a href="#reservas">RESERVAS</a>
+</nav>
+</header>
+<main>
+<!-- PORTADA PRINCIPAL -->
+<section class="hero">
+<div class="hero-shade"></div>
+<div class="hero-content">
+<img class="hero-logo" src="data:BASE64_RECORTADO" alt="Ginza Restaurant & Drinks"/>
+<p class="eyebrow">UNA EXPERIENCIA GASTRONÓMICA</p>
+<p class="hero-copy">
           no te quedes sin tu sushi favorito, solo aqui en ginza
         </p>
-
-        <a class="gold-button" href="#menu">DESCUBRIR MENÚ</a>
-      </div>
-
-      <span class="hero-note">SABOR · ARTE · EXPERIENCIA</span>
-    </section>
-
-
-    <!-- PLATILLOS ESPECIALES -->
-    <section class="special section-wrap" id="especiales">
-
-      <div class="section-heading">
-        <p class="eyebrow gold">SELECCIÓN DEL CHEF</p>
-
-        <h2>Platillos <em>especiales</em></h2>
-
-        <p>
+<a class="gold-button" href="#menu">DESCUBRIR MENÚ</a>
+</div>
+<span class="hero-note">SABOR · ARTE · EXPERIENCIA</span>
+</section>
+<!-- PLATILLOS ESPECIALES -->
+<section class="special section-wrap" id="especiales">
+<div class="section-heading">
+<p class="eyebrow gold">SELECCIÓN DEL CHEF</p>
+<h2>Platillos <em>especiales</em></h2>
+<p>
           Descubre nuestros rolls favoritos, preparados
           con ingredientes frescos y mucho sabor.
         </p>
-      </div>
-
-      <div class="special-grid">
-
-        <!-- NEPTUNO -->
-        <article class="dish-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=85"
-            alt="Sushi Neptuno"
-          >
-
-          <div class="dish-info">
-            <span class="dish-number">01 / CHEF'S CHOICE</span>
-
-            <h3>Neptuno</h3>
-
-            <p>
-              Un roll lleno de sabor con una combinación
-              fresca de mariscos y aguacate.
-            </p>
-
-            <span class="price">$28</span>
-          </div>
-
-        </article>
-
-
-        <!-- ROLL FUEGO -->
-        <article class="dish-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=900&q=85"
-            alt="Roll Fuego"
-          >
-
-          <div class="dish-info">
-            <span class="dish-number">02 / SIGNATURE</span>
-
-            <h3>Roll Fuego</h3>
-
-            <p>
-              Un toque picante y delicioso para quienes
-              disfrutan los sabores intensos.
-            </p>
-
-            <span class="price">$32</span>
-          </div>
-
-        </article>
-
-
-        <!-- PREMIUM SUSHI -->
-        <article class="dish-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=900&q=85"
-            alt="Premium Sushi"
-          >
-
-          <div class="dish-info">
-            <span class="dish-number">03 / FAVORITE</span>
-
-            <h3>Premium Sushi</h3>
-
-            <p>
-              Una selección premium de sushi, elaborada
-              para una experiencia especial.
-            </p>
-
-            <span class="price">$25</span>
-          </div>
-
-        </article>
-
-      </div>
-    </section>
-
-
-    <!-- MENÚ -->
-    <section class="menu-section" id="menu">
-
-      <div class="section-heading">
-        <p class="eyebrow gold">DESCUBRE NUESTRA COCINA</p>
-
-        <h2>Nuestro <em>menú</em></h2>
-
-        <p>
-          Sushi fresco, rolls irresistibles y sabores
-          que siempre querrás repetir.
+</div>
+<div class="special-grid">
+<!-- ARROZ MAR Y TIERRA -->
+<article class="dish-card">
+<img alt="Arroz elegante mar y tierra con camarones y carne" src="data:BASE64_RECORTADO"/>
+<div class="dish-info">
+<span class="dish-number">01 / CHEF'S CHOICE</span>
+<h3>Arroz Mar y Tierra</h3>
+<p>Arroz especial salteado con una deliciosa combinación de mariscos y carne.</p>
+<span class="price">$28.000</span>
+</div>
+</article>
+<!-- COSTILLAS BARBECUE -->
+<article class="dish-card">
+<img alt="Costillas barbecue con arroz trifásico y patacones" src="data:BASE64_RECORTADO"/>
+<div class="dish-info">
+<span class="dish-number">02 / SIGNATURE</span>
+<h3>Costillas Barbecue</h3>
+<p>Costillas bañadas en salsa barbecue, acompañadas de arroz trifásico y patacones.</p>
+<span class="price">$35.000</span>
+</div>
+</article>
+<!-- BARCO DE SUSHI -->
+<article class="dish-card">
+<img alt="Barquito de madera con variedad de ceviches" src="data:BASE64_RECORTADO"/>
+<div class="dish-info">
+<span class="dish-number">03 / FAVORITE</span>
+<h3>Barco de Sushi</h3>
+<p>Un pequeño barco de madera servido con una colorida variedad de ceviches.</p>
+<span class="price">$32.000</span>
+</div>
+</article>
+</div>
+</section>
+<!-- MENÚ -->
+<section class="menu-section" id="menu">
+<div class="section-heading">
+<p class="eyebrow gold">DESCUBRE NUESTRA COCINA</p>
+<h2>Menú <em>de entradas</em></h2>
+<p>
+          Entradas frescas y deliciosas para comenzar
+          tu experiencia Ginza.
         </p>
-      </div>
+</div>
+<div class="menu-gallery">
+<article class="menu-feature">
+<img alt="Ceviche Hinza" loading="lazy" src="https://claq2026.sqperu.org.pe/images/ceviche.png?v=1"/>
+<div>
+<span>01 — ENTRADAS</span>
+<h3>Ceviche Hinza</h3>
+<p>Ceviche fresco de pescado, acompañado de cítricos y guarniciones.</p>
+<span class="menu-price">$24.000</span>
+</div>
+</article>
+<article class="menu-feature reverse">
+<img alt="Frutos del mar al ajillo" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>02 — ENTRADAS</span>
+<h3>Frutos del mar al ajillo</h3>
+<p>Una selección de frutos del mar salteados al ajillo.</p>
+<span class="menu-price">$24.000</span>
+</div>
+</article>
+<article class="menu-feature">
+<img alt="Langostinos apanados" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>03 — ENTRADAS</span>
+<h3>Langostinos apanados</h3>
+<p>Langostinos dorados y crocantes, acompañados de salsa.</p>
+<span class="menu-price">$24.000</span>
+</div>
+</article>
+<article class="menu-feature reverse">
+<img alt="Casquitos de pescado" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>04 — ENTRADAS</span>
+<h3>Casquitos de pescado</h3>
+<p>Bocados de pescado fritos, dorados y crujientes.</p>
+<span class="menu-price">$20.000</span>
+</div>
+</article>
+<article class="menu-feature">
+<img alt="Palmitos rellenos" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>05 — ENTRADAS</span>
+<h3>Palmitos rellenos</h3>
+<p>Palmitos rellenos con una preparación cremosa y fresca.</p>
+<span class="menu-price">$18.000</span>
+</div>
+</article>
+<article class="menu-feature reverse">
+<img alt="Camarones al ajillo" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>06 — ENTRADAS</span>
+<h3>Camarones al ajillo</h3>
+<p>Camarones salteados en una aromática salsa de ajo.</p>
+<span class="menu-price">$18.000</span>
+</div>
+</article>
+<article class="menu-feature">
+<img alt="Camarones apanados" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>07 — ENTRADAS</span>
+<h3>Camarones apanados</h3>
+<p>Camarones apanados, crujientes por fuera y suaves por dentro.</p>
+<span class="menu-price">$18.000</span>
+</div>
+</article>
+<article class="menu-feature reverse">
+<img alt="Aros de calamar apanados" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>08 — ENTRADAS</span>
+<h3>Aros de calamar apanados</h3>
+<p>Aros de calamar apanados y fritos, servidos con limón.</p>
+<span class="menu-price">$18.000</span>
+</div>
+</article>
+<article class="menu-feature">
+<img alt="Porción de papitas francesas" loading="lazy" src="data:BASE64_RECORTADO"/>
+<div>
+<span>09 — ENTRADAS</span>
+<h3>Porción de papitas francesas</h3>
+<p>Porción de papitas francesas doradas y crocantes.</p>
+<span class="menu-price">$9.000</span>
+</div>
+</article>
+</div>
+<section aria-label="Carta completa de sushis" class="sushi-list" id="todos-sushis">
+<p class="eyebrow gold">DESCUBRE MÁS SABORES</p>
+<h2>Nuestros <em>sushis</em></h2>
+<div class="sushi-grid">
+<article aria-label="Ver detalles de Kampakú" class="sushi-item" data-sushi-description="Aros de calamar, queso crema, salmón, aguacate y palmito." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Kampakú" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Kampakú</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Volcano" class="sushi-item" data-sushi-description="Queso crema, mix de pescado en salsa de queso, palmito, salmón y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Volcano" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Volcano</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Función Andina" class="sushi-item" data-sushi-description="Maduro, queso crema, aguacate y salmón." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Función Andina" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Función Andina</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Ceviche" class="sushi-item" data-sushi-description="Ceviche, palmitos y ceviche." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Ceviche" data-sushi-price="$25.000" role="button" tabindex="0">
+<h3>Ceviche</h3><span>$25.000</span>
+</article>
+<article aria-label="Ver detalles de Geisha" class="sushi-item" data-sushi-description="Wakame, palmito, salmón, aguacate, queso crema y cobertura de aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Geisha" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Geisha</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Crazy" class="sushi-item" data-sushi-description="Kani kama, queso crema, aguacate, langostino y palmito." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Crazy" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Crazy</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Dinamita" class="sushi-item" data-sushi-description="Masago, palmito, kani kama, salsa yamita, queso crema y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Dinamita" data-sushi-price="$22.000" role="button" tabindex="0">
+<h3>Dinamita</h3><span>$22.000</span>
+</article>
+<article aria-label="Ver detalles de Osaka" class="sushi-item" data-sushi-description="Aguacate, langostinos, atún, queso crema y salmón apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Osaka" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Osaka</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Supremo" class="sushi-item" data-sushi-description="Queso crema, aguacate, ensalada de kani kama y guacamole, atún, palmito y salmón apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Supremo" data-sushi-price="$29.000" role="button" tabindex="0">
+<h3>Supremo</h3><span>$29.000</span>
+</article>
+<article aria-label="Ver detalles de Del Mar" class="sushi-item" data-sushi-description="Tilapia, sal de mar, masago, langostinos y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Del Mar" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Del Mar</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Ojo de Tigre" class="sushi-item" data-sushi-description="Salsa sésamo, queso crema, aguacate, masago, salmón, palmito y tilapia." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Ojo de Tigre" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Ojo de Tigre</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Fuego" class="sushi-item" data-sushi-description="Salsa bomba, queso crema, camarón apanado, salmón y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Fuego" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Fuego</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Nara" class="sushi-item" data-sushi-description="Palmito, ensalada, kani kama, salmón, aguacate y queso crema." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Nara" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Nara</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Ginza" class="sushi-item" data-sushi-description="Aguacate, palmito, langostinos, guacamole, queso crema y camarón apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Ginza" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Ginza</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Philadelphia" class="sushi-item" data-sushi-description="Masago, salmón, aguacate y queso crema." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Philadelphia" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Philadelphia</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Tilapia" class="sushi-item" data-sushi-description="Tilapia, aguacate y queso crema." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tilapia" data-sushi-price="$23.000" role="button" tabindex="0">
+<h3>Tilapia</h3><span>$23.000</span>
+</article>
+<article aria-label="Ver detalles de Fuji" class="sushi-item" data-sushi-description="Ensalada Fuji, langostino, masago, atún y queso crema." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Fuji" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Fuji</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Maki" class="sushi-item" data-sushi-description="Panecito, topping de salmón, salmón tempurizado, queso crema y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Maki" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Maki</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Tartar" class="sushi-item" data-sushi-description="Atún, aguacate, salmón, queso crema, camarón y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tartar" data-sushi-price="$28.000" role="button" tabindex="0">
+<h3>Tartar</h3><span>$28.000</span>
+</article>
+<article aria-label="Ver detalles de Emperador" class="sushi-item" data-sushi-description="Salsa emperador, langostino, cobertura de mango, salmón, queso crema y mango." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Emperador" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Emperador</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Tokio" class="sushi-item" data-sushi-description="Cobertura de camarón, camarón, salsa maki, queso crema y camarón apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tokio" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Tokio</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Tropical" class="sushi-item" data-sushi-description="Ensalada de kani kama, langostino, aguacate, langostino y mango." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tropical" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Tropical</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Nido" class="sushi-item" data-sushi-description="Viruta crocante, aguacate, salmón, salsa nido, queso crema y palmito." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Nido" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Nido</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Monkey" class="sushi-item" data-sushi-description="Maduro, ensalada de kani kama, palmito, queso crema y salmón." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Monkey" data-sushi-price="$28.000" role="button" tabindex="0">
+<h3>Monkey</h3><span>$28.000</span>
+</article>
+<article aria-label="Ver detalles de Cronchy" class="sushi-item" data-sushi-description="Salsa japonesa, camarón, queso crema, aguacate, palmito y langostino." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Cronchy" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Cronchy</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Tokio" class="sushi-item" data-sushi-description="Cobertura, camarón apanado, camarón, salsa maki, queso crema y camarón apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tokio" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Tokio</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Kiuri" class="sushi-item" data-sushi-description="Queso crema, cobertura de palmito, pepino y langostino apanado." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Kiuri" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Kiuri</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Tuna" class="sushi-item" data-sushi-description="Atún fresco, wontón, queso crema, kani kama y aguacate." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Tuna" data-sushi-price="$25.000" role="button" tabindex="0">
+<h3>Tuna</h3><span>$25.000</span>
+</article>
+<article aria-label="Ver detalles de Kioto" class="sushi-item" data-sushi-description="Camarón apanado, pepino y queso crema." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Kioto" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Kioto</h3><span>$24.000</span>
+</article>
+<article aria-label="Ver detalles de Surimi" class="sushi-item" data-sushi-description="Palmito, queso crema, aguacate, cobertura de salmón y topping de palmito." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Surimi" data-sushi-price="$26.000" role="button" tabindex="0">
+<h3>Surimi</h3><span>$26.000</span>
+</article>
+<article aria-label="Ver detalles de Levi" class="sushi-item" data-sushi-description="Viruta de maíz, aguacate, langostino apanado, queso crema y cobertura de salmón." data-sushi-image="data:BASE64_RECORTADO" data-sushi-name="Levi" data-sushi-price="$24.000" role="button" tabindex="0">
+<h3>Levi</h3><span>$24.000</span>
+</article>
+</div>
+</section>
 
-      <div class="menu-gallery">
-
-        <article class="menu-feature">
-          <img src="assets/menu-1.jpg" alt="Plato de la carta"
-          onerror="this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1100&q=85'">
-
-          <div>
-            <span>01 — ENTRADAS</span>
-            <h3>Empieza con algo delicioso</h3>
-            <p>Entradas perfectas para compartir antes de tus rolls favoritos.</p>
-          </div>
-        </article>
-
-        <article class="menu-feature reverse">
-          <img src="assets/menu-2.jpg" alt="Plato principal"
-          onerror="this.src='https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1100&q=85'">
-
-          <div>
-            <span>02 — ROLLS</span>
-            <h3>Rolls para recordar</h3>
-            <p>Combinaciones frescas con el equilibrio perfecto entre sabor y textura.</p>
-          </div>
-        </article>
-
-        <article class="menu-feature">
-          <img src="assets/menu-3.jpg" alt="Especialidad de la casa"
-          onerror="this.src='https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1100&q=85'">
-
-          <div>
-            <span>03 — FAVORITOS</span>
-            <h3>Un antojo irresistible</h3>
-            <p>Encuentra ese sushi que se convertirá en tu nuevo favorito.</p>
-          </div>
-        </article>
-
-      </div>
-
-      <a class="outline-button" href="#reservas">VER TODA LA CARTA</a>
-
-    </section>
-
-
-    <!-- EVENTOS -->
-    <section class="events section-wrap" id="eventos">
-
-      <div class="section-heading">
-        <p class="eyebrow gold">MOMENTOS PARA COMPARTIR</p>
-        <h2>Dining <em>Events</em></h2>
-      </div>
-
-      <div class="event-grid">
-
-        <article class="event-card event-large">
-          <img src="assets/event-1.jpg" alt="Cena especial"
-          onerror="this.src='https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85'">
-
-          <div class="event-caption">
-            <span>01 / PRIVATE DINING</span>
-            <h3>Unforgettable evenings</h3>
-          </div>
-        </article>
-
-        <article class="event-card">
-          <img src="assets/event-2.jpg" alt="Ambiente del restaurante"
-          onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85'">
-
-          <div class="event-caption">
-            <span>02 / SPECIAL MOMENTS</span>
-            <h3>Celebrate together</h3>
-          </div>
-        </article>
-
-        <article class="event-card">
-          <img src="assets/event-3.jpg" alt="Experiencia gastronómica"
-          onerror="this.src='https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=85'">
-
-          <div class="event-caption">
-            <span>03 / OUR PLACE</span>
-            <h3>Made with passion</h3>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-
-    <!-- IMAGEN DIVISORIA -->
-    <section class="image-divider" aria-label="Salmón a la parrilla">
-      <div class="divider-overlay"></div>
-      <p>GOOD FOOD. GOOD MOOD. GREAT MEMORIES.</p>
-    </section>
-
-
-    <!-- NOSOTROS -->
-    <section class="about section-wrap" id="nosotros">
-
-      <div class="about-image">
-        <img src="assets/about.jpg" alt="Interior del restaurante"
-        onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1100&q=85'">
-
-        <span class="image-frame"></span>
-      </div>
-
-      <div class="about-copy">
-
-        <p class="eyebrow gold">NUESTRA HISTORIA</p>
-
-        <h2>The beauty of<br><em>sharing moments</em></h2>
-
-        <p>
+</section>
+<!-- EVENTOS -->
+<section class="events section-wrap" id="eventos">
+<div class="section-heading">
+<p class="eyebrow gold">MOMENTOS PARA COMPARTIR</p>
+<h2>CATALIZACIÓN <em>DE VINOS</em></h2>
+</div>
+<div class="event-grid">
+<article class="event-card event-large">
+<img alt="Cena especial" onerror="this.src='https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85'" src="assets/event-1.jpg"/>
+<div class="event-caption">
+<span>01 / PRIVATE DINING</span>
+<h3>Unforgettable evenings</h3>
+</div>
+</article>
+<article class="event-card">
+<img alt="Ambiente del restaurante" onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=900&amp;q=85'" src="assets/event-2.jpg"/>
+<div class="event-caption">
+<span>02 / SPECIAL MOMENTS</span>
+<h3>Celebrate together</h3>
+</div>
+</article>
+<article class="event-card">
+<img alt="Experiencia gastronómica" onerror="this.src='https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&amp;fit=crop&amp;w=900&amp;q=85'" src="assets/event-3.jpg"/>
+<div class="event-caption">
+<span>03 / OUR PLACE</span>
+<h3>Made with passion</h3>
+</div>
+</article>
+</div>
+</section>
+<!-- IMAGEN DIVISORIA -->
+<section aria-label="Salmón a la parrilla" class="image-divider">
+<div class="divider-overlay"></div>
+<p>GOOD FOOD. GOOD MOOD. GREAT MEMORIES.</p>
+</section>
+<!-- NOSOTROS -->
+<section class="about section-wrap" id="nosotros">
+<div class="about-image">
+<img alt="Interior del restaurante" onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1100&amp;q=85'" src="assets/about.jpg"/>
+<span class="image-frame"></span>
+</div>
+<div class="about-copy">
+<p class="eyebrow gold">NUESTRA HISTORIA</p>
+<h2>The beauty of<br/><em>sharing moments</em></h2>
+<p>
           Creemos que una buena comida es mucho más que un plato:
           es una oportunidad para reunirse, conversar y crear recuerdos.
           Cada detalle está pensado para ofrecerte una experiencia especial.
         </p>
-
-        <a class="gold-button" href="#reservas">CONÓCENOS</a>
-
-      </div>
-    </section>
-
-
-    <!-- RESERVAS -->
-    <section class="reservation" id="reservas">
-
-      <p class="eyebrow gold">TU MESA TE ESPERA</p>
-
-      <h2>Make it a <em>special night</em></h2>
-
-      <p>
+<a class="gold-button" href="#reservas">CONÓCENOS</a>
+</div>
+</section>
+<!-- RESERVAS -->
+<section class="reservation" id="reservas">
+<p class="eyebrow gold">TU MESA TE ESPERA</p>
+<h2>Make it a <em>special night</em></h2>
+<p>
         Ven a disfrutar de nuestra cocina y comparte
         un momento inolvidable.
       </p>
-
-      <a class="gold-button" href="mailto:reservas@goldentable.com">
+<a class="gold-button" href="mailto:reservas@goldentable.com">
         RESERVAR AHORA
       </a>
+</section>
+</main>
+<!-- VENTANA DE DETALLES DEL SUSHI -->
+<div aria-hidden="true" class="sushi-modal" id="sushi-modal">
+<div aria-labelledby="sushi-modal-title" aria-modal="true" class="sushi-modal-card" role="dialog">
+<button aria-label="Cerrar" class="sushi-modal-close" type="button">×</button>
+<img alt="Imagen de sushi" id="sushi-modal-image" src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/>
+<div class="sushi-modal-copy">
+<p class="eyebrow gold">GINZA SUSHI</p>
+<h2 id="sushi-modal-title"></h2>
+<p id="sushi-modal-description">Aquí aparecerá la descripción y los ingredientes de este sushi. Esta información queda pendiente de completar con la receta de Ginza.</p>
+<span class="sushi-modal-price" id="sushi-modal-price"></span>
+</div>
+</div>
+</div>
+<!-- PIE DE PÁGINA -->
+<footer class="footer">
+<a aria-label="Ginza Restaurante" class="brand" href="#inicio"><img alt="Ginza Restaurante" src="data:BASE64_RECORTADO"/></a>
+<p>No te quedes sin tu sushi favorito, solo aqui en ginza.</p>
+<div class="footer-links">
+<a href="#menu">Menú</a>
+<a href="#eventos">Eventos</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#reservas">Reservas</a>
+</div>
+<small>© 2026 GINZA. TODOS LOS DERECHOS RESERVADOS.</small>
+</footer>
+<script>
+    (() => {
+      const modal = document.getElementById('sushi-modal');
+      const title = document.getElementById('sushi-modal-title');
+      const price = document.getElementById('sushi-modal-price');
+      const description = document.getElementById('sushi-modal-description');
+      const closeButton = modal.querySelector('.sushi-modal-close');
+      const cards = document.querySelectorAll('.sushi-item');
+      const modalImage = document.getElementById('sushi-modal-image');
+      const defaultImage = modalImage.src;
 
-    </section>
+      function openSushiDetails(card) {
+        title.textContent = card.dataset.sushiName;
+        price.textContent = card.dataset.sushiPrice;
+        description.textContent = card.dataset.sushiDescription;
+        modalImage.src = card.dataset.sushiImage || defaultImage;
+        modalImage.alt = 'Sushi ' + card.dataset.sushiName;
+        modalImage.style.objectFit = card.dataset.sushiImage ? 'contain' : 'cover';
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        closeButton.focus();
+      }
 
-  </main>
+      function closeSushiDetails() {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+      }
 
+      cards.forEach(card => {
+        card.addEventListener('click', () => openSushiDetails(card));
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openSushiDetails(card);
+          }
+        });
+      });
 
-  <!-- PIE DE PÁGINA -->
-  <footer class="footer">
-
-    <a class="brand" href="#inicio">GINZA</a>
-
-    <p>No te quedes sin tu sushi favorito, solo aqui en ginza.</p>
-
-    <div class="footer-links">
-      <a href="#menu">Menú</a>
-      <a href="#eventos">Eventos</a>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#reservas">Reservas</a>
-    </div>
-
-    <small>© 2026 GINZA. TODOS LOS DERECHOS RESERVADOS.</small>
-
-  </footer>
-
+      closeButton.addEventListener('click', closeSushiDetails);
+      modal.addEventListener('click', event => {
+        if (event.target === modal) closeSushiDetails();
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && modal.classList.contains('open')) {
+          closeSushiDetails();
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
